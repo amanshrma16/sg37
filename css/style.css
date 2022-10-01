@@ -356,7 +356,7 @@ nav li a.active{border-bottom: 2px solid #fff;}
   background-image: linear-gradient(to top, #304352 0%, #d7d2cc 100%);
 }
 .navbar-light .navbar-nav .nav-link img{width:10px; margin-right:5px;}
-.boldp{font-weight:700; color: white;}
+.boldp{font-weight:700; color: white; font-size: 1rem;}
 
 .blist1 li{
     font-size: 1.2rem;
@@ -758,9 +758,11 @@ footer h3{
     border: 1px solid #ccc;
     text-align: center;
     margin: 20px 0;
-    background: #f4f4f4;
+    background: #06283D;
     min-height: 116px;
     position:relative;
+    border-radius: 50px;
+    color: white;
 }
 
 .bxcentre {
@@ -930,7 +932,7 @@ label.error {
 
         @media(max-width:991px) {
 .boldp{
-    color: black;font-weight: 400;
+    color: black;font-weight: 400;font-size: 1rem;
 }
             .navbar-light .navbar-toggler-icon img{
                 width: 2rem;
@@ -1093,7 +1095,7 @@ label.error {
         float: none;
         width: 100%;
     }
-    .xswid100{width:100%;}
+    .xswid100{width:100%; }
     .whatsapp1 {
         background-color: #161716;
         display: block;
@@ -1339,13 +1341,13 @@ label.error {
 }
 
 
-.offerli ul li{border:1px solid green;padding:5px 8px;margin-bottom:20px;list-style-position:inside;}
+.offerli ul li{border:1px solid #06283D;padding:5px 8px;margin-bottom:20px;list-style-position:inside;}
 
 
 .schedule {
     border: 1px solid #dee2e6;
     padding: 20px;
-    background: green;
+    background: gray;
     color: #fff;
     margin: 30px 0;
 }
