@@ -19,6 +19,24 @@ $("#slide3").click(function () {
 })
 
 
+          var i=0;
+           setInterval(function(){
+            if(i==0){
+                $(".slider-rt").css({"background":"url(images/Pool%20View(1).jpg)"});
+            }
+            if(i==1){
+                $(".slider-rt").css({"background":"url(images/e3.jpg)"});
+            }
+            if(i==2){
+                $(".slider-rt").css({"background":"url(images/e5.jpg)"});
+            }
+            if(i==3){
+                $(".slider-rt").css({"background":"url(images/e7.jpg)"});
+                i=-1;
+            }
+            i++;
+           },5000);
+
        
  
     
