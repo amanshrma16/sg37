@@ -19,7 +19,7 @@
     <link rel="stylesheet" type="text/css" href="css/responsive.css?v=17082021">
     <link rel="stylesheet" type="text/css" href="css/slick.min.css?v=17082021">
 	
-	<!-- Google tag (gtag.js) - Google Analytics -->
+    <!-- Google tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-243889070-1">
 </script>
 <script>
@@ -28,7 +28,7 @@
   gtag('js', new Date());
 
   gtag('config', 'UA-243889070-1');
-</script>    
+</script>
 
   </head>
   <body>
@@ -76,8 +76,9 @@ Sys.WebForms.PageRequestManager._initialize('ddjg', 'ctl00', ['tUpdatePanel1','U
 <nav class="navbar-expand-lg navbar-light header" style="background:rgba(0, 0, 0, .6);">
  	<div class="container">
  	    <div class="row">     
-
+        <a href="#topofwebpage">
 	       <img class="navbar-brand" src="images/37dlinklogo.png" alt="city 81" >
+        </a>
 	  	
 
        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -103,7 +104,7 @@ Sys.WebForms.PageRequestManager._initialize('ddjg', 'ctl00', ['tUpdatePanel1','U
         .error{color:red;}
         
     </style>
-  <div class="city-slider">
+  <div class="city-slider" id="topofwebpage">
       <div class="slider">
          <div class="slider-inner">
 		     <div class="slider-rt" style="background:url('images/Pool%20View(1).jpg')">
@@ -202,11 +203,17 @@ Sys.WebForms.PageRequestManager._initialize('ddjg', 'ctl00', ['tUpdatePanel1','U
 
             <h4 class="text-center" style="font-weight:500;margin-bottom:15px;font-size:22px;margin-top:25px;">Limited Offer </h4>
         	
-				 <div class="offerli">
+				 <div class="offerli row">
 
 				     	 <ul>
-                              <li> Modular Kitchen</li><li>Split ACs</li>
-
+                            <div class="offerlidiv col-lg-6">
+                                <li> Modular Kitchen</li>
+                                <li><img src="images/kitchen.jpg" class="offerlipics"></li>
+                            </div>
+                            <div class="offerlidiv col-lg-6">
+                              <li>Split ACs</li>
+                              <li><img src="images/ac.jpg" class="offerlipics"></li>
+                            </div>
 				     	 </ul>
 					
 				 </div>
@@ -851,7 +858,9 @@ in the Vicinity</h4>
 	       <h4>SIGNATURE GLOBAL DEVELOPERS PVT LTD</h4>
 
            <div class="ft-logo text-center" style="margin-bottom:20px;">
+            <a href="#topofwebpage">
 	        <img src="images/37dlinklogo.png"  alt="logo" width="300" >
+            </a>
 	        </div>
 
 	       <div class="add-group">
