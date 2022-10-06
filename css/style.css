@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Rajdhani&family=Sacramento&display=swap');
 
 
-
+/* my changes */
 
 * {
 	padding: 0;
@@ -33,7 +33,23 @@
 .hidden{
     visibility: hidden;
 }
+.offerli li{
+    list-style-type: none;
+}
+.offerli ul li img{
+    border: 0;
+}
+.offerlidiv{
+    padding: 0;
+}
+.offerli img{
+    width: 100%;
+}
 
+
+
+
+/* dont change */
 
 .carousel-control {
     text-shadow: 0 1px 2px rgba(0,0,0,.6);
