@@ -944,6 +944,7 @@ in the Vicinity</h4>
 		  
 			form.addEventListener('submit', e => {
 			  e.preventDefault()
+				alert("Thank you! Your form is submitted successfully." )
 			  fetch(scriptURL, { method: 'POST', body: new FormData(form)})
 				.then(response => alert("Thank you! your form is submitted successfully." ))
 				.then(() => {  window.location.reload(); })
@@ -954,6 +955,7 @@ in the Vicinity</h4>
 		  
 			form2.addEventListener('submit', e => {
 			  e.preventDefault()
+				alert("Thank you! Your form is submitted successfully." )
 			  fetch(scriptURL, { method: 'POST', body: new FormData(form2)})
 				.then(response => alert("Thank you! your form is submitted successfully." ))
 				.then(() => {  window.location.reload(); })
